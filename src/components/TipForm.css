@@ -1,0 +1,22 @@
+form {
+  padding: 0 2rem 2rem;
+}
+
+.field {
+  padding-bottom: 1rem;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 28px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}

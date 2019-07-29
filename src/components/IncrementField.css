@@ -1,0 +1,32 @@
+.field-wrap {
+  display: flex;
+}
+
+.increment {
+  background: none;
+  width: 3rem;
+  font-size: 1.5rem;
+  border: 1px solid #eee;
+  background-color: #f3f4fb;
+  color: #3f51b5;
+  line-height: 1.2rem;
+}
+
+.increment.plus {
+  border-radius: 4px 0 0 4px;
+  margin-left: -1px;
+}
+
+.increment.minus {
+  border-radius: 0 4px 4px 0;
+  margin-right: -1px;
+}
+
+input {
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 28px;
+  border: 1px solid #eee;
+  border-radius: 0;
+}
